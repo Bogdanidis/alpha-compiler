@@ -1,0 +1,58 @@
+1:  ASSIGN	a	4	
+2:  ASSIGN	_t0	a	
+3:  ASSIGN	b	5	
+4:  ASSIGN	_t0	b	
+5:  ASSIGN	c	7	
+6:  ASSIGN	_t0	c	
+7:  ASSIGN	d	8	
+8:  ASSIGN	_t0	d	
+9:  ADD	_t0	a	b	
+10:  ADD	_t1	_t0	c	
+11:  ADD	_t2	_t1	d	
+12:  ASSIGN	e	_t2	
+13:  ASSIGN	_t3	e	
+14:  ADD	_t0	c	d	
+15:  ADD	_t1	b	_t0	
+16:  ADD	_t2	a	_t1	
+17:  ASSIGN	e	_t2	
+18:  ASSIGN	_t3	e	
+19:  UMINUS	_t0	a	
+20:  ADD	_t1	_t0	b	
+21:  ASSIGN	e	_t1	
+22:  ASSIGN	_t2	e	
+23:  ADD	_t0	a	b	
+24:  UMINUS	_t1	_t0	
+25:  ASSIGN	e	_t1	
+26:  ASSIGN	_t2	e	
+27:  MUL	_t0	a	b	
+28:  DIV	_t1	c	d	
+29:  MOD	_t2	_t1	e	
+30:  SUB	_t3	_t0	_t2	
+31:  ASSIGN	e	_t3	
+32:  ASSIGN	_t4	e	
+33:  MOD	_t0	d	e	
+34:  DIV	_t1	c	_t0	
+35:  SUB	_t2	b	_t1	
+36:  MUL	_t3	a	_t2	
+37:  ASSIGN	e	_t3	
+38:  ASSIGN	_t4	e	
+39:  ADD	_t0	a	b	
+40:  UMINUS	_t1	_t0	
+41:  ADD	_t2	c	d	
+42:  UMINUS	_t3	_t2	
+43:  DIV	_t4	_t1	_t3	
+44:  UMINUS	_t5	_t4	
+45:  MOD	_t6	_t5	e	
+46:  ASSIGN	e	_t6	
+47:  ASSIGN	_t7	e	
+48:  ASSIGN	_t0	a	
+49:  SUB	a	a	1	
+50:  ADD	b	1	b	
+51:  ASSIGN	_t1	b	
+52:  SUB	_t2	_t0	_t1	
+53:  SUB	c	c	1	
+54:  ASSIGN	_t3	c	
+55:  ADD	_t4	_t2	_t3	
+56:  ASSIGN	_t5	d	
+57:  ADD	d	d	1	
+58:  SUB	_t6	_t4	_t5	
